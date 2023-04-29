@@ -11,3 +11,9 @@ document.body.innerHTML = `
 </a>
 </nav>
 ` + document.body.innerHTML;
+document.body.innerHTML += `
+<footer>
+    <h4>Presented by Yonesh Thapa</h4>
+    <p>Copyright © 2023</p>
+</footer>
+`;
