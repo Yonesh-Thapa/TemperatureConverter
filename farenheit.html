@@ -1,19 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farenheit Calculator</title>
+    <title>Celsius Calculator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 
 </head>
-<body>
 
-    
+<body class="farenheit">
+    <div class="content">
+        <div class="container">
+            <div class="content-wrapper">
+                <h2>F to C Farenheit to Celsius conversion calculator</h2>
+                <p class="bold-text mt-5 mb-5">Enter a value for Fahrenheit to convert to Celsius.</p>
+                <div class=container>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-4 col-sm-3">
+                            <input type="number" id="farenheitLabel" class="form-control"
+                                placeholder="Enter Degree in Farenheit">
+                            <p class="bold-text"><sup>o</sup>F</p>
+
+                        </div>
+                        <div class="col-lg-6 col-md-4 col-sm-3">
+                            <input type="" id="celsisuLabel" class="form-control" placeholder="Result in Degree Celsius"
+                                readonly>
+                            <p class="bold-text"><sup>o</sup>C</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <p>
+                    A Fahrenheit to Celsius calculator is a tool that allows you to easily convert temperature values
+                    from
+                    Fahrenheit to Celsius. Fahrenheit (°F) and Celsius (°C) are two different units of temperature
+                    measurement.
+                    The
+                    Fahrenheit scale is commonly used in the United States, while the Celsius scale is used in most
+                    other
+                    countries.
+
+
+                </p>
+                <p>
+                    Converting Fahrenheit to Celsius manually can be a bit complex, but with a calculator, it's very
+                    simple.
+                    You
+                    just need to enter the temperature value in Fahrenheit, and the calculator will instantly convert it
+                    to
+                    Celsius.
+                    The formula to convert Fahrenheit to Celsius is:
+                </p>
+                <p class="bold-text">
+                    °C = (°F - 32) x 5/9
+                </p>
+                <p>For example, if you want to convert 68°F to Celsius, you can use the formula above:
+
+                </p>
+                <p class="bold-text">
+                    °C = (68 - 32) x 5/9 = 20°C
+                </p>
+                <p>
+                    So 68°F is equal to 20°C.
+                </p>
+                <p>
+                    Fahrenheit to Celsius calculators can be found online or on many mobile applications, and they are
+                    very
+                    useful
+                    for anyone who needs to convert temperatures from one unit to another quickly and easily. They are
+                    commonly
+                    used
+                    in scientific experiments, cooking, weather forecasting, and more.
+
+
+
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 <script src="scripts/nav.js"></script>
+<script src="scripts/farenheit.js"></script>
 
 </html>

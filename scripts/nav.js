@@ -1,12 +1,12 @@
 document.body.innerHTML = `
 <nav>
-<a href="index.html">
+<a class="home-link" href="index.html">
     Home
 </a>
-<a href="celsius.html">
+<a class="celsius-link" href="celsius.html">
     Celsius Calculator
 </a>
-<a href="farenheit.html">
+<a class="farenheit-link" href="farenheit.html">
     Farenheit Calculator
 </a>
 </nav>
