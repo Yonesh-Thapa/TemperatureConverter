@@ -1,12 +1,8 @@
+// window.onload = init;
 
-function init(){
-    const celsius = document.getElementById("celsiusLabel");
-    const farenheit = document.getElementById("farenheitLabel");
-    celsius.oninput = celsiusCalculator;
-
-    function celsiusCalculator()
-    {
-        farenheitLabel.innerHTML =  (((celsius.value) * 9/5) + 32 );
-    }
+function farenheitConverter()
+{
+        let farenheit =  parseFloat(((celsiusLabel.value) * 9/5) + 32 );
+        farenheitLabel.value = farenheit; 
 }
-window.onload = init;
+celsiusLabel.oninput = farenheitConverter;

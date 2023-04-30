@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-sd
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,13 +14,21 @@ sd
 <body>
     <h2>C to F Celsius to Farenheit conversion calculator</h2>
     <p>Enter a value for Fahrenheit or Celsius to convert to the other.</p>
-    <div>
-        <label for="celsiusLabel" class="form-label"><sup>o</sup>C</label>
-        <input type="number" id="celsiusLabel" class="form-control" placeholder="Enter Degree in Celsius">
-        <label for="farenheitLabel" class="form-label"><sup>o</sup>F</label>
-        <input type="number" id="farenheitLabel" class="form-control" placeholder="Result in Farenheit" readonly>
-    </div>
+    <div class= container>
+        <div class="row">
+            <div class="col-lg-6 col-md-4 col-sm-3">
+                <input type="number" id="celsiusLabel" class="form-control" placeholder="Enter Degree in Celsius">
+                <p><sup>o</sup>C</p>
 
+            </div>    
+            <div class="col-lg-6 col-md-4 col-sm-3">
+                <input type="" id="farenheitLabel" class="form-control" placeholder="Result in Degree Farenheit" readonly>
+                <p><sup>o</sup>F</p>
+                
+            </div>    
+        </div>
+    </div>
+    
     <p>
         A Celsius to Fahrenheit calculator is a tool that allows you to easily convert temperature values from Celsius
         to Fahrenheit. Celsius (°C) and Fahrenheit (°F) are two different units of temperature measurement. The Celsius
@@ -55,7 +62,7 @@ sd
 
 
     </p>
-
+    
 </body>
 <script src="scripts/nav.js"></script>
 <script src="scripts/celsius.js"></script>
