@@ -64,7 +64,7 @@ nav a:hover,
     border-radius: 0.5rem;
     color: #333741;
     background-color: white;
-    font-weight: bold;
-    padding:0.25rem;
+    /* font-weight: bold; */
+    /* padding:0.25rem; */
     transition: all 0.5s ease-out;
 }
